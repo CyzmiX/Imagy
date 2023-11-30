@@ -1,8 +1,17 @@
 <script lang='ts'>
     import Indicator from "$lib/indicator.svelte";
     import PostCard from "$lib/post-card.svelte";
+
+
     let show = true
-    export let data;
+    interface PageLoad {
+        posts: {
+            liked: boolean,
+            owner: string,
+            content: string
+        }[]
+    }
+    export let data: PageLoad;
     console.log(data)
     let posts = data.posts
     let cur = 0
