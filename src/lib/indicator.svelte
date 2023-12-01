@@ -16,7 +16,7 @@
         content: '╲╱';
         font-size: 1.2rem;
         height: 4rem;
-        bottom: 1px;
+        bottom: -10px;
         right: 96vh;
         letter-spacing: -1px;
         line-height: 4rem;
@@ -36,7 +36,7 @@
         font-size: 1.2rem;
         height: 4rem;
         right: 96vh;
-        top: 0vh;
+        top: 4vh;
         letter-spacing: -1px;
         line-height: 4rem;
 
@@ -59,7 +59,7 @@
     @keyframes up {
         50% {
             
-            top: 2vh
+            top: 6vh
             
         }
     }
